@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Huntr.SecondFactorAuth.BL\Huntr.SecondFactorAuth.BL.csproj" />
+    <ProjectReference Include="..\Huntr.SecondFactorAuth.Contracts\Huntr.SecondFactorAuth.Contracts.csproj" />
+    <ProjectReference Include="..\Huntr.SecondFactorAuth.Repository\Huntr.SecondFactorAuth.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

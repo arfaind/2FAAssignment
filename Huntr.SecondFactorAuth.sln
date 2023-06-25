@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huntr.SecondFactorAuth.Api", "Huntr.SecondFactorAuth.Api\Huntr.SecondFactorAuth.Api.csproj", "{E568CA41-CCB5-430E-BA10-3A8A0C87C824}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huntr.SecondFactorAuth.BL", "Huntr.SecondFactorAuth.BL\Huntr.SecondFactorAuth.BL.csproj", "{5AF0D21D-3098-4742-990E-C5E149E448D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huntr.SecondFactorAuth.Contracts", "Huntr.SecondFactorAuth.Contracts\Huntr.SecondFactorAuth.Contracts.csproj", "{1FA4C196-5347-48AC-A074-43C0D81C6597}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huntr.SecondFactorAuth.Repository", "Huntr.SecondFactorAuth.Repository\Huntr.SecondFactorAuth.Repository.csproj", "{00B50C6C-2815-4EB4-9348-75D304117885}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huntr.SecondFactorAuth.Tests", "Huntr.SecondFactorAuth.Tests\Huntr.SecondFactorAuth.Tests.csproj", "{20427C95-5AFC-49FB-A8CA-C5A4AF79A68C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E568CA41-CCB5-430E-BA10-3A8A0C87C824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E568CA41-CCB5-430E-BA10-3A8A0C87C824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E568CA41-CCB5-430E-BA10-3A8A0C87C824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E568CA41-CCB5-430E-BA10-3A8A0C87C824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF0D21D-3098-4742-990E-C5E149E448D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF0D21D-3098-4742-990E-C5E149E448D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF0D21D-3098-4742-990E-C5E149E448D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF0D21D-3098-4742-990E-C5E149E448D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA4C196-5347-48AC-A074-43C0D81C6597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA4C196-5347-48AC-A074-43C0D81C6597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA4C196-5347-48AC-A074-43C0D81C6597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA4C196-5347-48AC-A074-43C0D81C6597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B50C6C-2815-4EB4-9348-75D304117885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B50C6C-2815-4EB4-9348-75D304117885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B50C6C-2815-4EB4-9348-75D304117885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B50C6C-2815-4EB4-9348-75D304117885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20427C95-5AFC-49FB-A8CA-C5A4AF79A68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20427C95-5AFC-49FB-A8CA-C5A4AF79A68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20427C95-5AFC-49FB-A8CA-C5A4AF79A68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20427C95-5AFC-49FB-A8CA-C5A4AF79A68C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74691210-C2CA-465C-B854-4AB7A72C3004}
+	EndGlobalSection
+EndGlobal
